@@ -9,6 +9,7 @@ import { BazarrAdapter } from './bazarr.ts';
 import { JellyfinAdapter } from './jellyfin.ts';
 import { ProwlarrAdapter } from './prowlarr.ts';
 import { RadarrAdapter } from './radarr.ts';
+import { RomarrAdapter } from './romarr.ts';
 import { SabnzbdAdapter } from './sabnzbd.ts';
 import { SeerrAdapter } from './seerr.ts';
 import { SonarrAdapter } from './sonarr.ts';
@@ -43,6 +44,8 @@ function buildAdapter(instance: ServiceInstance): ServiceAdapter {
             return new ProwlarrAdapter(keyed);
         case 'radarr':
             return new RadarrAdapter(keyed);
+        case 'romarr':
+            return new RomarrAdapter(keyed);
         case 'sabnzbd':
             return new SabnzbdAdapter(keyed);
         case 'seerr':

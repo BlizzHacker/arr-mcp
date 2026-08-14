@@ -34,10 +34,12 @@ re-monitor it.
 | `respond_to_request` | safe | `safe_write` |
 | `add_media` | safe | `safe_write` |
 | `set_monitoring` | safe | `safe_write` |
+| `set_plugin_state` | safe | `safe_write` |
 | `remove_queue_item` | destructive | `destructive` |
 | `delete_media` | destructive | `destructive` |
 | `delete_episode_files` | destructive | `destructive` |
 | `delete_request` | destructive | `destructive` |
+| `manage_plugin_installation` | destructive | `destructive` |
 
 ### Where the tier boundary falls
 
@@ -53,6 +55,11 @@ release — which is hard to notice and hard to undo months later, when the same
 film mysteriously never grabs. SABnzbd and Transmission have no blocklist of
 their own; ask for one there and the preview tells you it is being ignored
 rather than silently accepting a flag that does nothing.
+
+ROM Hub plugin enable/disable is safe-tier because it is reversible. Installing
+or uninstalling is destructive-tier: installation fetches third-party code and
+uninstall removes its local checkout. Both use the same preview, confirmation
+token and audit trail as every other write.
 
 ## The confirmation handshake
 

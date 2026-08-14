@@ -16,16 +16,19 @@ import { registerDeleteMedia } from './deleteMedia.ts';
 import { registerDiagnose } from './diagnose/index.ts';
 import { registerDiscoverMedia } from './discoverMedia.ts';
 import { registerGetCalendar } from './getCalendar.ts';
+import { registerGetGames } from './getGames.ts';
 import { registerGetIndexers } from './getIndexers.ts';
 import { registerGetLibrary } from './getLibrary.ts';
 import { registerGetMediaDetails } from './getMediaDetails.ts';
 import { registerGetPlayback } from './getPlayback.ts';
+import { registerGetPlugins } from './getPlugins.ts';
 import { registerGetQueue } from './getQueue.ts';
 import { registerGetRequests } from './getRequests.ts';
 import { registerGetSubtitles } from './getSubtitles.ts';
 import { LibraryLoader } from './library.ts';
 import { registerLookupMedia } from './lookupMedia.ts';
 import { registerDeleteRequest, registerRespondToRequest } from './manageRequests.ts';
+import { registerManagePluginInstallation, registerSetPluginState } from './managePlugins.ts';
 import { registerRemoveQueueItem } from './removeQueueItem.ts';
 import { registerSearchMedia } from './searchMedia.ts';
 import { registerSetMonitoring } from './setMonitoring.ts';
@@ -128,7 +131,9 @@ export function registerAllTools(server: McpServer, context: ToolContext): void 
 
     registerDiagnose(server, { adapters, library });
     registerStackHealth(server, adapters, instances);
-    registerGetIndexers(server, adapters.find(hasIndexers));
+    registerGetIndexers(server, adapters.filter(hasIndexers));
+    registerGetGames(server, adapters);
+    registerGetPlugins(server, adapters);
     registerGetSubtitles(server, adapters.filter(hasSubtitles));
     registerGetQueue(server, adapters);
     registerGetCalendar(server, adapters);
@@ -154,6 +159,8 @@ export function registerAllTools(server: McpServer, context: ToolContext): void 
     registerRespondToRequest(server, write, adapters, seerrIdentity);
     registerDeleteRequest(server, write, adapters, seerrIdentity);
     registerAddMedia(server, write, adapters);
+    registerSetPluginState(server, write, adapters);
+    registerManagePluginInstallation(server, write, adapters);
 }
 
 /**
@@ -167,6 +174,8 @@ export const TOOL_NAMES = [
     'diagnose',
     'stack_health',
     'get_indexers',
+    'get_games',
+    'get_plugins',
     'get_subtitles',
     'get_queue',
     'get_calendar',
@@ -185,5 +194,7 @@ export const TOOL_NAMES = [
     'set_monitoring',
     'respond_to_request',
     'delete_request',
-    'add_media'
+    'add_media',
+    'set_plugin_state',
+    'manage_plugin_installation'
 ] as const;

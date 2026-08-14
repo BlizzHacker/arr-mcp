@@ -243,7 +243,7 @@ describe('per-service config shapes', () => {
         expect(single(parsed.services.radarr)?.permissions).toEqual({ safe_write: false, destructive: false });
     });
 
-    it('accepts all eight services configured at once', () => {
+    it('accepts all nine services configured at once', () => {
         const keyed = (port: number) => ({ url: `http://h:${port}`, api_key: 'k' });
         const parsed = ConfigSchema.parse({
             auth: AUTH,
@@ -254,6 +254,7 @@ describe('per-service config shapes', () => {
                 bazarr: keyed(6767),
                 sabnzbd: keyed(8080),
                 jellyfin: { ...keyed(8096), default_user: 'Bartus' },
+                romarr: keyed(6868),
                 seerr: { ...keyed(5055), default_user: 'bartus', allow_other_users: true },
                 transmission: { url: 'http://h:9091', username: 'u', password: 'p' }
             }
@@ -264,6 +265,7 @@ describe('per-service config shapes', () => {
             'jellyfin',
             'prowlarr',
             'radarr',
+            'romarr',
             'sabnzbd',
             'seerr',
             'sonarr',

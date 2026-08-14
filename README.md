@@ -4,7 +4,7 @@
 
 ### Talk to your entire media stack. One server, one endpoint, one conversation.
 
-**Radarr · Sonarr · Prowlarr · Bazarr · Jellyfin · Seerr · SABnzbd · Transmission**
+**Radarr · Sonarr · Prowlarr · Bazarr · Jellyfin · Seerr · SABnzbd · Transmission · ROMarr / ROM Hub**
 
 [![Release](https://img.shields.io/github/v/release/bardesss/arr-mcp?style=flat-square&color=6f42c1)](https://github.com/bardesss/arr-mcp/releases)
 [![CI](https://img.shields.io/github/actions/workflow/status/bardesss/arr-mcp/ci.yml?branch=main&style=flat-square)](https://github.com/bardesss/arr-mcp/actions)
@@ -45,7 +45,7 @@ part it could not check rather than guessing across the hole.
 | 🛡️ **Indexer text is data, never instruction** | Release names from public indexers are attacker-controllable and flow straight into model context. arr-mcp fences every one of them. |
 | ✋ **Writes are opt-in, previewed, recorded** | Off until you turn them on, per service. Every write shows you exactly what it would do and waits for confirmation — and lands in an audit trail either way. |
 | 🖥️ **A config page that diagnoses** | Add services from a browser, see what is broken *and what to do about it*, read the logs and the write audit. No YAML required. |
-| 📚 **Twenty-two tools, one vocabulary** | Every list pages the same way, every error names the config key that would fix it, every write takes ids rather than titles. |
+| 📚 **Twenty-six tools, one vocabulary** | Every list pages the same way, every error names the config key that would fix it, every write takes ids rather than titles. |
 
 Nothing else in this space does the last four at all.
 
@@ -101,11 +101,13 @@ ARM NAS runs the same build as everything else.
 
 ## What you can ask it
 
-Twenty-two tools, but you never name them — you ask, and the model picks:
+Twenty-six tools, but you never name them — you ask, and the model picks:
 
 > *"What's downloading right now, and is anything stuck?"*
 > *"What aired this week that I haven't watched?"*
 > *"Which of my indexers are failing, and what did they say?"*
+> *"Which ROM Hub plugins are installed, and which third-party catalogs supplied them?"*
+> *"Show me the SNES games ROMarr knows about."*
 > *"Find me something highly rated from 1994 I don't already have."*
 > *"Unmonitor season 5 and delete its files."* — previewed first, always.
 
@@ -113,7 +115,8 @@ Twenty-two tools, but you never name them — you ask, and the model picks:
 
 | | |
 | --- | --- |
-| **[Tools](docs/tools.md)** | All twenty-two, what each answers, and the fields whose meaning is not obvious |
+| **[Tools](docs/tools.md)** | All twenty-six, what each answers, and the fields whose meaning is not obvious |
+| **[ROMarr and ROM Hub](docs/romarr.md)** | Connect ROMarr, browse games, inspect catalogs and safely manage plugins |
 | **[Writes](docs/writes.md)** | Turning them on, the two tiers, and the preview-and-confirm handshake |
 | **[Configuration](docs/configuration.md)** | `config.yaml`, several Radarrs, Jellyfin's `default_user` |
 | **[Config UI](docs/config-ui.md)** | The four pages, and what each does that is not obvious |
@@ -124,7 +127,7 @@ Twenty-two tools, but you never name them — you ask, and the model picks:
 
 - At least one supported service, LAN-reachable: Radarr 4.0+, Sonarr 4.0+,
   Prowlarr 1.0+, Bazarr 1.4+, Jellyfin 10.8+, Seerr 1.0+, SABnzbd 3.0+,
-  Transmission 3.0+
+  Transmission 3.0+, ROMarr 0.8.0+
 - Docker, or Node 24+ to run from source
 - An MCP client speaking protocol revision `2026-07-28`
 
@@ -146,14 +149,14 @@ arr-mcp is itself built with a coding agent. Point yours at
 
 **Missing a tool?** [Open an issue](../../issues/new/choose) describing the
 question you could not get answered rather than the tool you think should
-exist — at twenty-two tools the answer is usually a new parameter on one that
+exist — at twenty-six tools the answer is usually a new parameter on one that
 already exists.
 
 ## Security
 
 arr-mcp is **not designed to be exposed to the internet.** The `/mcp` endpoint
 requires a bearer token because "LAN-only" is a network assumption rather than a
-security control — it fronts up to eight API keys and, once enabled, file
+security control — it fronts up to nine API keys and, once enabled, file
 deletion, and a home network contains guest phones and IoT devices. Put it
 behind a reverse proxy with TLS if it needs to leave the LAN, and pin
 `allowed_hosts` if you do.
@@ -165,7 +168,8 @@ to is free software maintained largely by volunteers — [Radarr](https://radarr
 [Sonarr](https://sonarr.tv), [Prowlarr](https://prowlarr.com),
 [Bazarr](https://www.bazarr.media), [Jellyfin](https://jellyfin.org),
 [Seerr](https://github.com/seerr-team/seerr), [SABnzbd](https://sabnzbd.org),
-[Transmission](https://transmissionbt.com) — as are the libraries it is built
+[Transmission](https://transmissionbt.com),
+[ROMarr](https://github.com/BlizzHacker/romarr) — as are the libraries it is built
 on: [MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk),
 [Hono](https://hono.dev), [Zod](https://zod.dev), [Pino](https://getpino.io),
 [Vitest](https://vitest.dev), [yaml](https://eemeli.org/yaml/) and

@@ -1,0 +1,640 @@
+{
+  "items": [
+    {
+      "type": "prowlarr",
+      "name": "Indexer 1",
+      "enable": true,
+      "url": "https://indexer.example.test/",
+      "api_key": "__REDACTED__",
+      "id": "812df1a28974"
+    }
+  ],
+  "proxied": [
+    {
+      "name": "Indexer 1",
+      "protocol": "usenet",
+      "enable": false,
+      "privacy": "private",
+      "categories": [],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 2",
+      "protocol": "usenet",
+      "enable": false,
+      "privacy": "private",
+      "categories": [],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 3",
+      "protocol": "torrent",
+      "enable": false,
+      "privacy": "public",
+      "categories": [
+        "TV"
+      ],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 4",
+      "protocol": "torrent",
+      "enable": true,
+      "privacy": "public",
+      "categories": [
+        "TV",
+        "Anime",
+        "Books",
+        "Manga"
+      ],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 5",
+      "protocol": "torrent",
+      "enable": true,
+      "privacy": "public",
+      "categories": [
+        "TV",
+        "Anime",
+        "Anime Pack",
+        "Movies"
+      ],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 6",
+      "protocol": "torrent",
+      "enable": true,
+      "privacy": "public",
+      "categories": [
+        "Console",
+        "Arcade",
+        "Dreamcast",
+        "Game Boy Advance"
+      ],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 7",
+      "protocol": "torrent",
+      "enable": false,
+      "privacy": "public",
+      "categories": [
+        "Audio"
+      ],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 8",
+      "protocol": "torrent",
+      "enable": true,
+      "privacy": "public",
+      "categories": [
+        "PC",
+        "Экшены",
+        "Приключения",
+        "Гонки"
+      ],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 9",
+      "protocol": "torrent",
+      "enable": true,
+      "privacy": "public",
+      "categories": [
+        "PC",
+        "PC",
+        "Console",
+        "Playstation 1"
+      ],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 10",
+      "protocol": "torrent",
+      "enable": true,
+      "privacy": "public",
+      "categories": [
+        "PC",
+        "Adobe Software",
+        "Adobe Tools",
+        "Android"
+      ],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 11",
+      "protocol": "torrent",
+      "enable": true,
+      "privacy": "public",
+      "categories": [
+        "TV",
+        "動畫 (Anime)",
+        "季度全集 (Quarterly Complete)",
+        "Books"
+      ],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 12",
+      "protocol": "usenet",
+      "enable": false,
+      "privacy": "private",
+      "categories": [],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 13",
+      "protocol": "torrent",
+      "enable": true,
+      "privacy": "public",
+      "categories": [
+        "Other"
+      ],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 14",
+      "protocol": "torrent",
+      "enable": true,
+      "privacy": "public",
+      "categories": [
+        "XXX"
+      ],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 15",
+      "protocol": "torrent",
+      "enable": true,
+      "privacy": "public",
+      "categories": [
+        "PC",
+        "Games PC",
+        "Console",
+        "Games PSP"
+      ],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 16",
+      "protocol": "torrent",
+      "enable": false,
+      "privacy": "public",
+      "categories": [
+        "Audio",
+        "audio",
+        "etree",
+        "Movies"
+      ],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 17",
+      "protocol": "torrent",
+      "enable": true,
+      "privacy": "public",
+      "categories": [
+        "PC",
+        "Apps",
+        "Books",
+        "Books"
+      ],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 18",
+      "protocol": "torrent",
+      "enable": true,
+      "privacy": "public",
+      "categories": [
+        "Audio",
+        "Audio",
+        "MP3",
+        "Lossless"
+      ],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 19",
+      "protocol": "torrent",
+      "enable": true,
+      "privacy": "public",
+      "categories": [
+        "TV",
+        "TV shows",
+        "Movies",
+        "Movies"
+      ],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 20",
+      "protocol": "torrent",
+      "enable": false,
+      "privacy": "public",
+      "categories": [
+        "Other",
+        "Other",
+        "PC",
+        "4MLinux"
+      ],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 21",
+      "protocol": "torrent",
+      "enable": false,
+      "privacy": "public",
+      "categories": [
+        "PC",
+        "Apps",
+        "Games",
+        "Other"
+      ],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 22",
+      "protocol": "torrent",
+      "enable": false,
+      "privacy": "public",
+      "categories": [
+        "TV",
+        "影视",
+        "Movies",
+        "影视"
+      ],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 23",
+      "protocol": "torrent",
+      "enable": true,
+      "privacy": "public",
+      "categories": [
+        "Other",
+        "Other"
+      ],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 24",
+      "protocol": "torrent",
+      "enable": true,
+      "privacy": "public",
+      "categories": [
+        "TV",
+        "Anime"
+      ],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 25",
+      "protocol": "torrent",
+      "enable": true,
+      "privacy": "public",
+      "categories": [
+        "Audio"
+      ],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 26",
+      "protocol": "torrent",
+      "enable": true,
+      "privacy": "public",
+      "categories": [
+        "TV",
+        "Anime",
+        "Movies",
+        "Movies"
+      ],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 27",
+      "protocol": "torrent",
+      "enable": true,
+      "privacy": "public",
+      "categories": [
+        "Other",
+        "Форум Региональные встречи",
+        "Форум-Трекер: Клубные таланты Авторские релизы",
+        "Форум-Трекер: Клубные таланты Архив"
+      ],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 28",
+      "protocol": "torrent",
+      "enable": true,
+      "privacy": "public",
+      "categories": [
+        "TV",
+        "Anime",
+        "Anime - Anime Music Video",
+        "Anime - English-translated"
+      ],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 29",
+      "protocol": "usenet",
+      "enable": false,
+      "privacy": "private",
+      "categories": [],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 30",
+      "protocol": "usenet",
+      "enable": false,
+      "privacy": "private",
+      "categories": [],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 31",
+      "protocol": "usenet",
+      "enable": false,
+      "privacy": "private",
+      "categories": [],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 32",
+      "protocol": "usenet",
+      "enable": false,
+      "privacy": "private",
+      "categories": [],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 33",
+      "protocol": "torrent",
+      "enable": true,
+      "privacy": "public",
+      "categories": [
+        "XXX",
+        "Полнометражные XXX фильмы / Full Length Movies",
+        "  Классика / Classic (Полнометражные фильмы снятые до 2000 года)",
+        "  Фильмы с сюжетом / Feature Vignettes"
+      ],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 34",
+      "protocol": "torrent",
+      "enable": true,
+      "privacy": "public",
+      "categories": [
+        "Audio",
+        "Audio",
+        "MP3",
+        "Lossless"
+      ],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 35",
+      "protocol": "torrent",
+      "enable": true,
+      "privacy": "public",
+      "categories": [
+        "PC",
+        "Games"
+      ],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 36",
+      "protocol": "torrent",
+      "enable": true,
+      "privacy": "public",
+      "categories": [
+        "PC"
+      ],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 37",
+      "protocol": "torrent",
+      "enable": true,
+      "privacy": "private",
+      "categories": [
+        "Console",
+        "Games and ROMs",
+        "Audio",
+        "Music and OSTs"
+      ],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 38",
+      "protocol": "torrent",
+      "enable": true,
+      "privacy": "public",
+      "categories": [
+        "XXX",
+        "Фильмы 2160 4K | Movies 2160p 4K",
+        "Сайтрипы 2160 4K | Porn Video 2160p 4K",
+        "Фильмы HD | Movies HD"
+      ],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 39",
+      "protocol": "torrent",
+      "enable": true,
+      "privacy": "public",
+      "categories": [
+        "Movies",
+        "Movies",
+        "TV",
+        "TV"
+      ],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 40",
+      "protocol": "torrent",
+      "enable": true,
+      "privacy": "public",
+      "categories": [
+        "TV",
+        "Anime"
+      ],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 41",
+      "protocol": "torrent",
+      "enable": true,
+      "privacy": "public",
+      "categories": [
+        "Other"
+      ],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 42",
+      "protocol": "torrent",
+      "enable": false,
+      "privacy": "public",
+      "categories": [
+        "PC",
+        "Action",
+        "Adventure",
+        "Online Games"
+      ],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 43",
+      "protocol": "torrent",
+      "enable": true,
+      "privacy": "public",
+      "categories": [
+        "TV",
+        "Movies"
+      ],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 44",
+      "protocol": "torrent",
+      "enable": true,
+      "privacy": "public",
+      "categories": [
+        "Audio",
+        "Audio",
+        "Music",
+        "Audio Books"
+      ],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 45",
+      "protocol": "torrent",
+      "enable": true,
+      "privacy": "public",
+      "categories": [
+        "TV",
+        "Anime",
+        "Non-English Anime",
+        "Books"
+      ],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 46",
+      "protocol": "torrent",
+      "enable": false,
+      "privacy": "public",
+      "categories": [
+        "TV",
+        "TV Shows",
+        "Movies",
+        "Movies"
+      ],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 47",
+      "protocol": "torrent",
+      "enable": true,
+      "privacy": "public",
+      "categories": [
+        "Movies",
+        "Movies",
+        "TV",
+        "TV"
+      ],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 48",
+      "protocol": "torrent",
+      "enable": true,
+      "privacy": "public",
+      "categories": [
+        "XXX",
+        "Adult",
+        "Adult Porn Animation/Hentai",
+        "Adult Porn Games"
+      ],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 49",
+      "protocol": "torrent",
+      "enable": true,
+      "privacy": "public",
+      "categories": [
+        "Other"
+      ],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 50",
+      "protocol": "torrent",
+      "enable": true,
+      "privacy": "public",
+      "categories": [
+        "Other",
+        "Other"
+      ],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 51",
+      "protocol": "torrent",
+      "enable": true,
+      "privacy": "public",
+      "categories": [
+        "Other"
+      ],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 52",
+      "protocol": "torrent",
+      "enable": false,
+      "privacy": "public",
+      "categories": [
+        "Movies",
+        "Movies",
+        "TV",
+        "TV"
+      ],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 53",
+      "protocol": "torrent",
+      "enable": true,
+      "privacy": "public",
+      "categories": [
+        "PC"
+      ],
+      "api_key": "__REDACTED__"
+    },
+    {
+      "name": "Indexer 54",
+      "protocol": "torrent",
+      "enable": true,
+      "privacy": "public",
+      "categories": [
+        "Movies",
+        "Movies/x264/720p",
+        "Movies/x264/1080p",
+        "Movies/x264/2160p"
+      ],
+      "api_key": "__REDACTED__"
+    }
+  ],
+  "error": null
+}

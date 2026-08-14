@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "game": "Super Metroid",
+      "platform": "snes",
+      "release": "Super Metroid (JU) [!].smc",
+      "seeders": 3,
+      "state": "grabbed",
+      "detail": "",
+      "at": "2026-08-12T22:59:42+00:00"
+    },
+    {
+      "game": "Donkey Kong Country",
+      "platform": "snes",
+      "release": "Donkey Kong Country - Super Nintendo",
+      "seeders": 1,
+      "state": "grabbed",
+      "detail": "",
+      "at": "2026-08-12T22:59:54+00:00"
+    },
+    {
+      "game": "Chrono Trigger",
+      "platform": "snes",
+      "release": "Chrono Trigger - Super Nintendo",
+      "seeders": 1,
+      "state": "grabbed",
+      "detail": "",
+      "at": "2026-08-12T23:00:07+00:00"
+    },
+    {
+      "game": "Space Ace",
+      "platform": "jaguar",
+      "release": "Space Ace Remastered",
+      "seeders": 651,
+      "state": "grabbed",
+      "detail": "",
+      "at": "2026-08-12T23:00:20+00:00"
+    },
+    {
+      "game": "Armored Core - Last Raven Portable",
+      "platform": "psp",
+      "release": "[PSP]Armored Core Last Raven Portable [JAP][FIX]  rar",
+      "seeders": 102,
+      "state": "grabbed",
+      "detail": "",
+      "at": "2026-08-12T23:00:35+00:00"
+    }
+  ]
+}

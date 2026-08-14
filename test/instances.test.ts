@@ -102,7 +102,7 @@ describe('what the list form refuses', () => {
      * there would produce configurations the code silently degrades on.
      */
     it('refuses a list under a service that may not repeat, and names the ones that may', () => {
-        for (const type of ['prowlarr', 'sabnzbd', 'jellyfin', 'seerr', 'transmission']) {
+        for (const type of ['prowlarr', 'sabnzbd', 'jellyfin', 'seerr', 'transmission', 'romarr']) {
             expect(isMultiInstance(type as never)).toBe(false);
             expect(() => parse({ [type]: [entry('a', 9999)] })).toThrow(/only bazarr, radarr, sonarr/i);
         }

@@ -228,11 +228,16 @@ function instanceCard(
         ${field({ id: `${p}.timeout_ms`, name: 'timeout_ms', label: 'Timeout (ms)', type: 'number', value: service.timeout_ms })}
 
         <p class="note" style="margin-top:.75rem">Writes — both off by default, and granted per instance.</p>
-        ${checkbox(`${p}.safe_write`, 'safe_write', 'safe_write — searches, monitoring, request verdicts', service.permissions.safe_write)}
+        ${checkbox(
+            `${p}.safe_write`,
+            'safe_write',
+            'safe_write — searches, monitoring, request verdicts, plugin state',
+            service.permissions.safe_write
+        )}
         ${checkbox(
             `${p}.destructive`,
             'destructive',
-            'destructive — deletes files, queue items and requests (implies safe_write)',
+            'destructive — deletes files, queue items, requests and plugin checkouts (implies safe_write)',
             service.permissions.destructive
         )}
 

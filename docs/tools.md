@@ -1,6 +1,6 @@
 # Tools
 
-Twenty-two of them. The first thirteen read; the last nine write, and are off
+Twenty-six of them. The first fifteen read; the last eleven write, and are off
 until you turn them on — see [writes](writes.md).
 
 | Tool | Answers |
@@ -15,6 +15,8 @@ until you turn them on — see [writes](writes.md).
 | `get_subtitles` | What is missing subtitles, and which providers are throttled |
 | `get_playback` | What am I watching, and what can I continue |
 | `get_indexers` | Which indexers are healthy, and what they recently rejected |
+| `get_games` | Which games ROMarr knows about, filtered by title, platform or genre |
+| `get_plugins` | Which ROM Hub plugins the configured catalogs expose, and their state |
 | `get_requests` | What has been requested, and what is still pending |
 | `lookup_media` | Tell me about this, without adding it |
 | `discover_media` | What exists in this genre, year, or rating band |
@@ -27,6 +29,8 @@ until you turn them on — see [writes](writes.md).
 | `respond_to_request` | Approve or decline what someone asked for |
 | `delete_request` | Drop a request record entirely |
 | `add_media` | Add this film or series and start looking for it |
+| `set_plugin_state` | Enable or disable an installed ROM Hub plugin |
+| `manage_plugin_installation` | Install or uninstall a catalogued ROM Hub plugin |
 
 The rest of this page is the shape of the answers: the fields whose meaning is
 not obvious, and the places where a value is deliberately absent rather than
@@ -71,11 +75,11 @@ Read `total` from there rather than parsing it out of "50 of 243 item(s)" —
 that sentence is prose and may be reworded.
 
 **A client can tell the reads from the writes without reading prose.** Every
-tool carries a title and an annotation: `readOnlyHint` on the thirteen that only
-read, and on the nine writes `destructiveHint`, taken from the same permission
+tool carries a title and an annotation: `readOnlyHint` on the fifteen that only
+read, and on the eleven writes `destructiveHint`, taken from the same permission
 tier the write gate itself runs on — so a tool cannot be gated as destructive
 and advertised as safe. A client deciding what to auto-approve, or what to warn
-about, reads those rather than guessing from twenty-two similarly-shaped
+about, reads those rather than guessing from twenty-six similarly-shaped
 descriptions. `idempotentHint` is deliberately absent: the confirmation token is
 single-use, so repeating a write does not repeat it, and neither answer would be
 true.
@@ -220,7 +224,7 @@ how far in you are.
 
 ## Prompts and resources
 
-Twenty-two tools do not tell you which one to reach for, and the questions
+Twenty-six tools do not tell you which one to reach for, and the questions
 people actually ask are rarely one call.
 
 **Five prompts**, which most clients surface as slash commands:

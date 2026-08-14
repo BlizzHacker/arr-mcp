@@ -311,6 +311,40 @@ const CONTRACTS: Record<string, ServiceContract> = {
             }
         ]
     },
+    romarr: {
+        dependencies: [
+            {
+                fixture: 'test/fixtures/romarr/system-status.json',
+                fields: ['version', 'clients.configured', 'clients.ok', 'clients.detail', 'libraries.ok', 'libraries.readable']
+            },
+            {
+                fixture: 'test/fixtures/romarr/game.json',
+                fields: ['items.id', 'items.name', 'items.platform', 'items.year', 'items.rating', 'items.genres', 'items.source']
+            },
+            {
+                fixture: 'test/fixtures/romarr/queue.json',
+                fields: ['items.game', 'items.release', 'items.state', 'items.detail', 'items.at']
+            },
+            {
+                fixture: 'test/fixtures/romarr/indexer.json',
+                fields: ['items.id', 'items.name', 'items.type', 'items.enable', 'proxied.name', 'proxied.protocol']
+            },
+            {
+                fixture: 'test/fixtures/romarr/hub-plugins.json',
+                fields: [
+                    'items.slug',
+                    'items.name',
+                    'items.repository',
+                    'items.capabilities',
+                    'items.platforms',
+                    'items.network',
+                    'items.installed',
+                    'items.enabled'
+                ]
+            },
+            { fixture: 'test/fixtures/romarr/search.json', fields: ['top.title', 'top.seeders', 'top.indexer'] }
+        ]
+    },
     sabnzbd: {
         dependencies: [
             { fixture: 'test/fixtures/sabnzbd/version.json', fields: ['version'] },

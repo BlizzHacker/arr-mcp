@@ -6,6 +6,7 @@ export const ServiceIdSchema = z.enum([
     'prowlarr',
     'bazarr',
     'jellyfin',
+    'romarr',
     'seerr',
     'sabnzbd',
     'transmission'
@@ -41,7 +42,7 @@ const BaseServiceShape = {
 
 const ApiKeyShape = { api_key: z.string().min(1, 'api_key must not be empty') };
 
-/** Radarr, Sonarr, Prowlarr, Bazarr, SABnzbd — an API key and nothing more. */
+/** Radarr, Sonarr, Prowlarr, Bazarr, SABnzbd, ROMarr — an API key and nothing more. */
 const KeyedServiceSchema = z.strictObject({ ...BaseServiceShape, ...ApiKeyShape });
 export type KeyedServiceConfig = z.infer<typeof KeyedServiceSchema>;
 
@@ -50,7 +51,7 @@ export type KeyedServiceConfig = z.infer<typeof KeyedServiceSchema>;
  * runs two — an HD and a 4K Radarr, their Sonarrs, and a Bazarr per stack
  * because Bazarr connects to exactly one of each.
  *
- * The other five are deliberately single: a second Prowlarr or Seerr is not a
+ * The other six are deliberately single: a second Prowlarr or Seerr is not a
  * tier, and `register.ts` selects those with a `.find`. Admitting a shape the
  * code then degrades on is worse than refusing it.
  */
@@ -183,6 +184,7 @@ const ServicesSchema = z
         prowlarr: singleOnly(KeyedServiceSchema).optional(),
         sabnzbd: singleOnly(KeyedServiceSchema).optional(),
         jellyfin: singleOnly(MultiUserServiceSchema).optional(),
+        romarr: singleOnly(KeyedServiceSchema).optional(),
         seerr: singleOnly(MultiUserServiceSchema).optional(),
         transmission: singleOnly(TransmissionServiceSchema).optional()
     })

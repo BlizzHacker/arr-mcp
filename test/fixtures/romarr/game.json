@@ -1,0 +1,1376 @@
+{
+  "items": [
+    {
+      "id": "2",
+      "name": "Alone in the Dark",
+      "platform": "3DO Interactive Multiplayer",
+      "cover": "http://192.0.2.10:8080/assets/romm/resources/roms/1/2/cover/small.png?ts=2026-05-03 17:51:33",
+      "source": "",
+      "genres": [
+        "Adventure",
+        "Puzzle"
+      ],
+      "regions": [],
+      "year": 1992,
+      "rating": 6.8,
+      "released": "1992-09-01",
+      "added": "2025-12-02",
+      "updated": "2026-05-03",
+      "franchises": [
+        "Alone in the Dark"
+      ],
+      "companies": [
+        "Arrow Micro-Techs Corp.",
+        "Imotion",
+        "Infogrames",
+        "Interplay Entertainment",
+        "Krisalis Software",
+        "MacPlay",
+        "THQ Nordic"
+      ],
+      "modes": [
+        "Single player"
+      ],
+      "players": "1",
+      "origin": "local",
+      "provenance": "local",
+      "extension": ".iso",
+      "platform_slug": "3do"
+    },
+    {
+      "id": "3",
+      "name": "Alone in the Dark",
+      "platform": "3DO Interactive Multiplayer",
+      "cover": "http://192.0.2.10:8080/assets/romm/resources/roms/1/3/cover/small.png?ts=2026-05-03 17:51:34",
+      "source": "",
+      "genres": [
+        "Adventure",
+        "Puzzle"
+      ],
+      "regions": [],
+      "year": 1992,
+      "rating": 6.8,
+      "released": "1992-09-01",
+      "added": "2025-12-02",
+      "updated": "2026-05-03",
+      "franchises": [
+        "Alone in the Dark"
+      ],
+      "companies": [
+        "Arrow Micro-Techs Corp.",
+        "Imotion",
+        "Infogrames",
+        "Interplay Entertainment",
+        "Krisalis Software",
+        "MacPlay",
+        "THQ Nordic"
+      ],
+      "modes": [
+        "Single player"
+      ],
+      "players": "1",
+      "origin": "local",
+      "provenance": "local",
+      "extension": ".iso",
+      "platform_slug": "3do"
+    },
+    {
+      "id": "4",
+      "name": "AquaWorld - Umibi Monogatari (JP).iso",
+      "platform": "3DO Interactive Multiplayer",
+      "cover": "",
+      "source": "",
+      "genres": [],
+      "regions": [],
+      "year": 0,
+      "rating": 0,
+      "released": "",
+      "added": "2025-12-02",
+      "updated": "2026-05-03",
+      "franchises": [],
+      "companies": [],
+      "modes": [],
+      "players": "1",
+      "origin": "local",
+      "provenance": "local",
+      "extension": ".iso",
+      "platform_slug": "3do"
+    },
+    {
+      "id": "5",
+      "name": "Autobahn Tokio",
+      "platform": "3DO Interactive Multiplayer",
+      "cover": "http://192.0.2.10:8080/assets/romm/resources/roms/1/5/cover/small.png?ts=2026-05-03 17:51:38",
+      "source": "",
+      "genres": [
+        "Racing"
+      ],
+      "regions": [],
+      "year": 1995,
+      "rating": 7,
+      "released": "1995-12-22",
+      "added": "2025-12-02",
+      "updated": "2026-05-03",
+      "franchises": [],
+      "companies": [
+        "Matsushita Electric Industrial"
+      ],
+      "modes": [
+        "Single player"
+      ],
+      "players": "1",
+      "origin": "local",
+      "provenance": "local",
+      "extension": ".iso",
+      "platform_slug": "3do"
+    },
+    {
+      "id": "6",
+      "name": "Battle Pinball",
+      "platform": "3DO Interactive Multiplayer",
+      "cover": "http://192.0.2.10:8080/assets/romm/resources/roms/1/6/cover/small.png?ts=2026-05-03 17:51:39",
+      "source": "",
+      "genres": [
+        "Pinball"
+      ],
+      "regions": [],
+      "year": 1994,
+      "rating": 8,
+      "released": "1994-11-25",
+      "added": "2025-12-02",
+      "updated": "2026-05-03",
+      "franchises": [],
+      "companies": [
+        "Japan DataWorks",
+        "Matsushita Electric Industrial"
+      ],
+      "modes": [
+        "Multiplayer",
+        "Single player"
+      ],
+      "players": "1",
+      "origin": "local",
+      "provenance": "local",
+      "extension": ".iso",
+      "platform_slug": "3do"
+    }
+  ],
+  "loading": false,
+  "partial": false,
+  "total": 56000,
+  "grand_total": 56000,
+  "cached_total": 56000,
+  "totals": {
+    "total": 56000,
+    "on_disk": 55989,
+    "catalogued": 11,
+    "counted_from": "cached rows",
+    "sources": {
+      "local": 55989,
+      "cloud": 11
+    }
+  },
+  "offset": 0,
+  "platforms": [
+    {
+      "platform": "Browser (Flash/HTML5)",
+      "count": 94415,
+      "cached": 0,
+      "on_disk": 0,
+      "catalogued": 0
+    },
+    {
+      "platform": "Apple II",
+      "count": 16300,
+      "cached": 666,
+      "on_disk": 666,
+      "catalogued": 0
+    },
+    {
+      "platform": "ZX Spectrum",
+      "count": 12291,
+      "cached": 0,
+      "on_disk": 0,
+      "catalogued": 0
+    },
+    {
+      "platform": "Nintendo DS",
+      "count": 8112,
+      "cached": 8112,
+      "on_disk": 8112,
+      "catalogued": 0
+    },
+    {
+      "platform": "Arcade",
+      "count": 6377,
+      "cached": 6377,
+      "on_disk": 6377,
+      "catalogued": 0
+    },
+    {
+      "platform": "Amiga",
+      "count": 6003,
+      "cached": 6003,
+      "on_disk": 6003,
+      "catalogued": 0
+    },
+    {
+      "platform": "Game Boy Advance",
+      "count": 3873,
+      "cached": 3873,
+      "on_disk": 3872,
+      "catalogued": 1
+    },
+    {
+      "platform": "Amstrad CPC",
+      "count": 3792,
+      "cached": 0,
+      "on_disk": 0,
+      "catalogued": 0
+    },
+    {
+      "platform": "Nintendo 3DS",
+      "count": 3639,
+      "cached": 3639,
+      "on_disk": 3639,
+      "catalogued": 0
+    },
+    {
+      "platform": "Nintendo Entertainment System",
+      "count": 3337,
+      "cached": 3337,
+      "on_disk": 3336,
+      "catalogued": 1
+    },
+    {
+      "platform": "Wii U",
+      "count": 2990,
+      "cached": 0,
+      "on_disk": 0,
+      "catalogued": 0
+    },
+    {
+      "platform": "Nintendo Switch",
+      "count": 2874,
+      "cached": 0,
+      "on_disk": 0,
+      "catalogued": 0
+    },
+    {
+      "platform": "PlayStation",
+      "count": 2621,
+      "cached": 1121,
+      "on_disk": 1121,
+      "catalogued": 0
+    },
+    {
+      "platform": "PlayStation 2",
+      "count": 2409,
+      "cached": 2409,
+      "on_disk": 2409,
+      "catalogued": 0
+    },
+    {
+      "platform": "MSX",
+      "count": 2373,
+      "cached": 2373,
+      "on_disk": 2373,
+      "catalogued": 0
+    },
+    {
+      "platform": "Nintendo 64",
+      "count": 2036,
+      "cached": 2036,
+      "on_disk": 2036,
+      "catalogued": 0
+    },
+    {
+      "platform": "Sega Mega Drive/Genesis",
+      "count": 1926,
+      "cached": 1925,
+      "on_disk": 1924,
+      "catalogued": 1
+    },
+    {
+      "platform": "Atari 2600",
+      "count": 1912,
+      "cached": 1912,
+      "on_disk": 1911,
+      "catalogued": 1
+    },
+    {
+      "platform": "Super Nintendo Entertainment System",
+      "count": 1848,
+      "cached": 0,
+      "on_disk": 0,
+      "catalogued": 0
+    },
+    {
+      "platform": "Wii",
+      "count": 1470,
+      "cached": 0,
+      "on_disk": 0,
+      "catalogued": 0
+    },
+    {
+      "platform": "Game Boy",
+      "count": 1417,
+      "cached": 1417,
+      "on_disk": 1417,
+      "catalogued": 0
+    },
+    {
+      "platform": "Turbografx-16/PC Engine CD",
+      "count": 1262,
+      "cached": 28,
+      "on_disk": 28,
+      "catalogued": 0
+    },
+    {
+      "platform": "PlayStation Portable",
+      "count": 1182,
+      "cached": 1182,
+      "on_disk": 1182,
+      "catalogued": 0
+    },
+    {
+      "platform": "Dreamcast",
+      "count": 992,
+      "cached": 992,
+      "on_disk": 992,
+      "catalogued": 0
+    },
+    {
+      "platform": "Family Computer Disk System",
+      "count": 968,
+      "cached": 968,
+      "on_disk": 967,
+      "catalogued": 1
+    },
+    {
+      "platform": "Amstrad PCW",
+      "count": 753,
+      "cached": 753,
+      "on_disk": 753,
+      "catalogued": 0
+    },
+    {
+      "platform": "Sega Saturn",
+      "count": 718,
+      "cached": 0,
+      "on_disk": 0,
+      "catalogued": 0
+    },
+    {
+      "platform": "Sega Master System/Mark III",
+      "count": 705,
+      "cached": 0,
+      "on_disk": 0,
+      "catalogued": 0
+    },
+    {
+      "platform": "Commodore C64/128/MAX",
+      "count": 688,
+      "cached": 688,
+      "on_disk": 688,
+      "catalogued": 0
+    },
+    {
+      "platform": "Nintendo GameCube",
+      "count": 626,
+      "cached": 626,
+      "on_disk": 626,
+      "catalogued": 0
+    },
+    {
+      "platform": "Game Boy Color",
+      "count": 531,
+      "cached": 531,
+      "on_disk": 531,
+      "catalogued": 0
+    },
+    {
+      "platform": "WonderSwan",
+      "count": 496,
+      "cached": 0,
+      "on_disk": 0,
+      "catalogued": 0
+    },
+    {
+      "platform": "Neo Geo Pocket Color",
+      "count": 458,
+      "cached": 458,
+      "on_disk": 458,
+      "catalogued": 0
+    },
+    {
+      "platform": "Neo Geo AES",
+      "count": 431,
+      "cached": 431,
+      "on_disk": 430,
+      "catalogued": 1
+    },
+    {
+      "platform": "Intellivision",
+      "count": 403,
+      "cached": 403,
+      "on_disk": 403,
+      "catalogued": 0
+    },
+    {
+      "platform": "Atari 7800",
+      "count": 401,
+      "cached": 401,
+      "on_disk": 400,
+      "catalogued": 1
+    },
+    {
+      "platform": "Sega Game Gear",
+      "count": 369,
+      "cached": 369,
+      "on_disk": 369,
+      "catalogued": 0
+    },
+    {
+      "platform": "Atari 5200",
+      "count": 320,
+      "cached": 320,
+      "on_disk": 320,
+      "catalogued": 0
+    },
+    {
+      "platform": "ColecoVision",
+      "count": 313,
+      "cached": 313,
+      "on_disk": 313,
+      "catalogued": 0
+    },
+    {
+      "platform": "Atari Lynx",
+      "count": 303,
+      "cached": 303,
+      "on_disk": 303,
+      "catalogued": 0
+    },
+    {
+      "platform": "Atari Jaguar",
+      "count": 299,
+      "cached": 299,
+      "on_disk": 298,
+      "catalogued": 1
+    },
+    {
+      "platform": "Vectrex",
+      "count": 291,
+      "cached": 0,
+      "on_disk": 0,
+      "catalogued": 0
+    },
+    {
+      "platform": "Satellaview",
+      "count": 255,
+      "cached": 0,
+      "on_disk": 0,
+      "catalogued": 0
+    },
+    {
+      "platform": "SG-1000",
+      "count": 249,
+      "cached": 0,
+      "on_disk": 0,
+      "catalogued": 0
+    },
+    {
+      "platform": "MSX2",
+      "count": 238,
+      "cached": 238,
+      "on_disk": 238,
+      "catalogued": 0
+    },
+    {
+      "platform": "Sharp X68000",
+      "count": 238,
+      "cached": 0,
+      "on_disk": 0,
+      "catalogued": 0
+    },
+    {
+      "platform": "Nintendo DSi",
+      "count": 220,
+      "cached": 220,
+      "on_disk": 220,
+      "catalogued": 0
+    },
+    {
+      "platform": "Sega CD",
+      "count": 189,
+      "cached": 0,
+      "on_disk": 0,
+      "catalogued": 0
+    },
+    {
+      "platform": "NAOMI",
+      "count": 183,
+      "cached": 183,
+      "on_disk": 182,
+      "catalogued": 1
+    },
+    {
+      "platform": "WonderSwan Color",
+      "count": 183,
+      "cached": 0,
+      "on_disk": 0,
+      "catalogued": 0
+    },
+    {
+      "platform": "3DO Interactive Multiplayer",
+      "count": 167,
+      "cached": 167,
+      "on_disk": 167,
+      "catalogued": 0
+    },
+    {
+      "platform": "DOS",
+      "count": 163,
+      "cached": 163,
+      "on_disk": 163,
+      "catalogued": 0
+    },
+    {
+      "platform": "Sega Pico",
+      "count": 132,
+      "cached": 0,
+      "on_disk": 0,
+      "catalogued": 0
+    },
+    {
+      "platform": "Neo Geo CD",
+      "count": 127,
+      "cached": 127,
+      "on_disk": 127,
+      "catalogued": 0
+    },
+    {
+      "platform": "Super Famicom",
+      "count": 127,
+      "cached": 0,
+      "on_disk": 0,
+      "catalogued": 0
+    },
+    {
+      "platform": "Videopac G7000",
+      "count": 110,
+      "cached": 0,
+      "on_disk": 0,
+      "catalogued": 0
+    },
+    {
+      "platform": "Family Computer",
+      "count": 106,
+      "cached": 106,
+      "on_disk": 105,
+      "catalogued": 1
+    },
+    {
+      "platform": "Xbox 360",
+      "count": 104,
+      "cached": 0,
+      "on_disk": 0,
+      "catalogued": 0
+    },
+    {
+      "platform": "PC Engine SuperGrafx",
+      "count": 100,
+      "cached": 0,
+      "on_disk": 0,
+      "catalogued": 0
+    },
+    {
+      "platform": "Xbox",
+      "count": 100,
+      "cached": 0,
+      "on_disk": 0,
+      "catalogued": 0
+    },
+    {
+      "platform": "PlayStation 3",
+      "count": 98,
+      "cached": 98,
+      "on_disk": 98,
+      "catalogued": 0
+    },
+    {
+      "platform": "Amiga CD32",
+      "count": 94,
+      "cached": 94,
+      "on_disk": 94,
+      "catalogued": 0
+    },
+    {
+      "platform": "Virtual Boy",
+      "count": 82,
+      "cached": 0,
+      "on_disk": 0,
+      "catalogued": 0
+    },
+    {
+      "platform": "Atomiswave",
+      "count": 66,
+      "cached": 66,
+      "on_disk": 65,
+      "catalogued": 1
+    },
+    {
+      "platform": "Game & Watch",
+      "count": 61,
+      "cached": 61,
+      "on_disk": 61,
+      "catalogued": 0
+    },
+    {
+      "platform": "Watara/QuickShot Supervision",
+      "count": 44,
+      "cached": 0,
+      "on_disk": 0,
+      "catalogued": 0
+    },
+    {
+      "platform": "Pokémon mini",
+      "count": 43,
+      "cached": 43,
+      "on_disk": 43,
+      "catalogued": 0
+    },
+    {
+      "platform": "Windows",
+      "count": 41,
+      "cached": 0,
+      "on_disk": 0,
+      "catalogued": 0
+    },
+    {
+      "platform": "Sega 32X",
+      "count": 39,
+      "cached": 0,
+      "on_disk": 0,
+      "catalogued": 0
+    },
+    {
+      "platform": "PlayStation Vita",
+      "count": 34,
+      "cached": 34,
+      "on_disk": 34,
+      "catalogued": 0
+    },
+    {
+      "platform": "Fairchild Channel F",
+      "count": 30,
+      "cached": 30,
+      "on_disk": 30,
+      "catalogued": 0
+    },
+    {
+      "platform": "New Nintendo 3DS",
+      "count": 25,
+      "cached": 25,
+      "on_disk": 25,
+      "catalogued": 0
+    },
+    {
+      "platform": "Bally Astrocade",
+      "count": 20,
+      "cached": 20,
+      "on_disk": 20,
+      "catalogued": 0
+    },
+    {
+      "platform": "Nintendo 64DD",
+      "count": 15,
+      "cached": 15,
+      "on_disk": 15,
+      "catalogued": 0
+    },
+    {
+      "platform": "Atari Jaguar CD",
+      "count": 11,
+      "cached": 11,
+      "on_disk": 11,
+      "catalogued": 0
+    },
+    {
+      "platform": "Android",
+      "count": 9,
+      "cached": 9,
+      "on_disk": 9,
+      "catalogued": 0
+    },
+    {
+      "platform": "Daphne",
+      "count": 8,
+      "cached": 8,
+      "on_disk": 8,
+      "catalogued": 0
+    },
+    {
+      "platform": "PlayStation 4",
+      "count": 7,
+      "cached": 7,
+      "on_disk": 7,
+      "catalogued": 0
+    },
+    {
+      "platform": "NEC PC-6000 Series",
+      "count": 5,
+      "cached": 5,
+      "on_disk": 5,
+      "catalogued": 0
+    },
+    {
+      "platform": "PlayStation 5",
+      "count": 4,
+      "cached": 4,
+      "on_disk": 4,
+      "catalogued": 0
+    },
+    {
+      "platform": "Palm OS",
+      "count": 1,
+      "cached": 1,
+      "on_disk": 1,
+      "catalogued": 0
+    }
+  ],
+  "facets": {
+    "genres": [
+      {
+        "value": "Adventure",
+        "count": 8140
+      },
+      {
+        "value": "Platform",
+        "count": 7469
+      },
+      {
+        "value": "Arcade",
+        "count": 7436
+      },
+      {
+        "value": "Shooter",
+        "count": 7235
+      },
+      {
+        "value": "Puzzle",
+        "count": 5432
+      },
+      {
+        "value": "Sport",
+        "count": 5051
+      },
+      {
+        "value": "Strategy",
+        "count": 3466
+      },
+      {
+        "value": "Simulator",
+        "count": 3335
+      },
+      {
+        "value": "Role-playing (RPG)",
+        "count": 3216
+      },
+      {
+        "value": "Fighting",
+        "count": 3032
+      },
+      {
+        "value": "Racing",
+        "count": 3003
+      },
+      {
+        "value": "Hack and slash/Beat 'em up",
+        "count": 1983
+      },
+      {
+        "value": "Action",
+        "count": 1028
+      },
+      {
+        "value": "Turn-based strategy (TBS)",
+        "count": 869
+      },
+      {
+        "value": "Card & Board Game",
+        "count": 768
+      },
+      {
+        "value": "Sports",
+        "count": 740
+      },
+      {
+        "value": "Role Playing Game",
+        "count": 665
+      },
+      {
+        "value": "Music",
+        "count": 582
+      },
+      {
+        "value": "Shoot'em Up",
+        "count": 562
+      },
+      {
+        "value": "Educational",
+        "count": 536
+      },
+      {
+        "value": "Tactical",
+        "count": 513
+      },
+      {
+        "value": "Quiz/Trivia",
+        "count": 478
+      },
+      {
+        "value": "Various",
+        "count": 428
+      },
+      {
+        "value": "Simulation",
+        "count": 390
+      },
+      {
+        "value": "Indie",
+        "count": 364
+      },
+      {
+        "value": "Racing, Driving",
+        "count": 359
+      },
+      {
+        "value": "Visual Novel",
+        "count": 341
+      },
+      {
+        "value": "Point-and-click",
+        "count": 335
+      },
+      {
+        "value": "Compilation",
+        "count": 304
+      },
+      {
+        "value": "Asiatic board game",
+        "count": 292
+      },
+      {
+        "value": "Real Time Strategy (RTS)",
+        "count": 266
+      },
+      {
+        "value": "Action / Labyrinth",
+        "count": 253
+      },
+      {
+        "value": "Mahjong",
+        "count": 213
+      },
+      {
+        "value": "Pinball",
+        "count": 210
+      },
+      {
+        "value": "Action / Adventure",
+        "count": 195
+      },
+      {
+        "value": "Shoot'em Up / Vertical",
+        "count": 193
+      },
+      {
+        "value": "Casual Game",
+        "count": 158
+      },
+      {
+        "value": "Beat'em Up",
+        "count": 144
+      },
+      {
+        "value": "Shoot'em Up / Horizontal",
+        "count": 139
+      },
+      {
+        "value": "Sports / Football (Soccer)",
+        "count": 135
+      }
+    ],
+    "regions": [
+      {
+        "value": "USA",
+        "count": 14623
+      },
+      {
+        "value": "Japan",
+        "count": 7687
+      },
+      {
+        "value": "Europe",
+        "count": 5964
+      },
+      {
+        "value": "Public Domain",
+        "count": 1707
+      },
+      {
+        "value": "Netherlands",
+        "count": 918
+      },
+      {
+        "value": "Sweden",
+        "count": 785
+      },
+      {
+        "value": "Canada",
+        "count": 628
+      },
+      {
+        "value": "Unlicensed",
+        "count": 549
+      },
+      {
+        "value": "Australia",
+        "count": 500
+      },
+      {
+        "value": "Spain",
+        "count": 434
+      },
+      {
+        "value": "World",
+        "count": 419
+      },
+      {
+        "value": "Germany",
+        "count": 363
+      },
+      {
+        "value": "Brazil",
+        "count": 357
+      },
+      {
+        "value": "France",
+        "count": 334
+      },
+      {
+        "value": "Korea",
+        "count": 282
+      },
+      {
+        "value": "Norway",
+        "count": 205
+      },
+      {
+        "value": "Usa",
+        "count": 196
+      },
+      {
+        "value": "wor",
+        "count": 130
+      },
+      {
+        "value": "Italy",
+        "count": 114
+      },
+      {
+        "value": "Taiwan",
+        "count": 84
+      }
+    ],
+    "franchises": [
+      {
+        "value": "Mario",
+        "count": 816
+      },
+      {
+        "value": "Disney",
+        "count": 505
+      },
+      {
+        "value": "Pokémon",
+        "count": 480
+      },
+      {
+        "value": "Marvel",
+        "count": 352
+      },
+      {
+        "value": "Donkey Kong",
+        "count": 307
+      },
+      {
+        "value": "Mega Man",
+        "count": 271
+      },
+      {
+        "value": "Pac-Man",
+        "count": 269
+      },
+      {
+        "value": "Street Fighter",
+        "count": 261
+      },
+      {
+        "value": "Mario Bros.",
+        "count": 260
+      },
+      {
+        "value": "The Legend of Zelda",
+        "count": 235
+      },
+      {
+        "value": "Star Wars",
+        "count": 223
+      },
+      {
+        "value": "Sonic The Hedgehog",
+        "count": 220
+      },
+      {
+        "value": "NFL",
+        "count": 199
+      },
+      {
+        "value": "LEGO",
+        "count": 186
+      },
+      {
+        "value": "Nickelodeon",
+        "count": 186
+      },
+      {
+        "value": "Final Fantasy",
+        "count": 178
+      },
+      {
+        "value": "NBA",
+        "count": 169
+      },
+      {
+        "value": "Tetris",
+        "count": 163
+      },
+      {
+        "value": "Dragon Ball",
+        "count": 160
+      },
+      {
+        "value": "The King of Fighters",
+        "count": 156
+      },
+      {
+        "value": "Kirby",
+        "count": 149
+      },
+      {
+        "value": "FIFA",
+        "count": 140
+      },
+      {
+        "value": "Spider-Man",
+        "count": 140
+      },
+      {
+        "value": "Fire Emblem",
+        "count": 134
+      },
+      {
+        "value": "Metroid",
+        "count": 128
+      },
+      {
+        "value": "Yoshi",
+        "count": 123
+      },
+      {
+        "value": "Spongebob Squarepants",
+        "count": 119
+      },
+      {
+        "value": "Bubble Bobble",
+        "count": 117
+      },
+      {
+        "value": "Looney Tunes",
+        "count": 117
+      },
+      {
+        "value": "Formula 1",
+        "count": 113
+      },
+      {
+        "value": "Castlevania",
+        "count": 112
+      },
+      {
+        "value": "Bomberman",
+        "count": 107
+      },
+      {
+        "value": "MLB",
+        "count": 103
+      },
+      {
+        "value": "Mortal Kombat",
+        "count": 102
+      },
+      {
+        "value": "Gundam",
+        "count": 100
+      },
+      {
+        "value": "Harvest Moon",
+        "count": 100
+      },
+      {
+        "value": "Mickey Mouse",
+        "count": 99
+      },
+      {
+        "value": "NHL",
+        "count": 97
+      },
+      {
+        "value": "Madden",
+        "count": 96
+      },
+      {
+        "value": "Petz",
+        "count": 96
+      }
+    ],
+    "companies": [
+      {
+        "value": "Nintendo",
+        "count": 3449
+      },
+      {
+        "value": "Konami",
+        "count": 2088
+      },
+      {
+        "value": "Activision",
+        "count": 1507
+      },
+      {
+        "value": "Capcom",
+        "count": 1381
+      },
+      {
+        "value": "THQ",
+        "count": 1353
+      },
+      {
+        "value": "Sega",
+        "count": 1236
+      },
+      {
+        "value": "Taito",
+        "count": 1131
+      },
+      {
+        "value": "Atari",
+        "count": 1062
+      },
+      {
+        "value": "Tec Toy",
+        "count": 999
+      },
+      {
+        "value": "Electronic Arts",
+        "count": 962
+      },
+      {
+        "value": "SNK",
+        "count": 918
+      },
+      {
+        "value": "Gradiente",
+        "count": 899
+      },
+      {
+        "value": "Namco",
+        "count": 867
+      },
+      {
+        "value": "Sega Enterprises, Ltd.",
+        "count": 682
+      },
+      {
+        "value": "Atari Corporation",
+        "count": 660
+      },
+      {
+        "value": "Ubisoft Entertainment",
+        "count": 618
+      },
+      {
+        "value": "Playtronic",
+        "count": 613
+      },
+      {
+        "value": "Sony Computer Entertainment",
+        "count": 544
+      },
+      {
+        "value": "Acclaim Entertainment",
+        "count": 523
+      },
+      {
+        "value": "Data East",
+        "count": 492
+      },
+      {
+        "value": "Square Enix",
+        "count": 476
+      },
+      {
+        "value": "Hudson Soft",
+        "count": 475
+      },
+      {
+        "value": "Atlus",
+        "count": 451
+      },
+      {
+        "value": "Bandai",
+        "count": 418
+      },
+      {
+        "value": "U.S. Gold",
+        "count": 416
+      },
+      {
+        "value": "Atari Games",
+        "count": 392
+      },
+      {
+        "value": "Namco Bandai Games",
+        "count": 372
+      },
+      {
+        "value": "Jaleco",
+        "count": 354
+      },
+      {
+        "value": "EA Sports",
+        "count": 335
+      },
+      {
+        "value": "HAL Laboratory",
+        "count": 328
+      },
+      {
+        "value": "Midway Games",
+        "count": 325
+      },
+      {
+        "value": "SEGA",
+        "count": 313
+      },
+      {
+        "value": "Infogrames",
+        "count": 301
+      },
+      {
+        "value": "Vicarious Visions",
+        "count": 301
+      },
+      {
+        "value": "Tengen",
+        "count": 295
+      },
+      {
+        "value": "Mindscape",
+        "count": 292
+      },
+      {
+        "value": "Atari, Inc.",
+        "count": 284
+      },
+      {
+        "value": "Eidos Interactive",
+        "count": 275
+      },
+      {
+        "value": "Ocean Software",
+        "count": 262
+      },
+      {
+        "value": "Coleco",
+        "count": 260
+      }
+    ],
+    "released": 44661,
+    "decades": [
+      {
+        "value": "1970s",
+        "count": 439
+      },
+      {
+        "value": "1980s",
+        "count": 11363
+      },
+      {
+        "value": "1990s",
+        "count": 12510
+      },
+      {
+        "value": "2000s",
+        "count": 15420
+      },
+      {
+        "value": "2010s",
+        "count": 4836
+      },
+      {
+        "value": "2020s",
+        "count": 93
+      }
+    ],
+    "origins": [
+      {
+        "value": "local",
+        "count": 55989
+      },
+      {
+        "value": "cloud",
+        "count": 11
+      }
+    ],
+    "sources": [
+      {
+        "value": "local",
+        "count": 55989
+      },
+      {
+        "value": "cloud",
+        "count": 11
+      }
+    ],
+    "identified": 45206,
+    "players": {
+      "by_player": {
+        "emulatorjs": 42901,
+        "emularity": 15031
+      },
+      "no_file": 11,
+      "plays_in_browser": 42970,
+      "rows": 56000
+    }
+  },
+  "libraries": [
+    "RomM"
+  ],
+  "library": "RomM",
+  "age_seconds": 97429,
+  "error": "RomM: ReadTimeout; RomM: HTTPError"
+}

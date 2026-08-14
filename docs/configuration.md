@@ -18,10 +18,13 @@ services:
     url: http://192.168.1.20:9091
     username: "…"            # Transmission has no API key
     password: "…"
+  romarr:
+    url: http://192.168.1.20:7878
+    api_key: "…"
 ```
 
-All eight service ids: `radarr`, `sonarr`, `prowlarr`, `bazarr`, `jellyfin`,
-`seerr`, `sabnzbd`, `transmission`. Configure only what you run — anything you
+All nine service ids: `radarr`, `sonarr`, `prowlarr`, `bazarr`, `jellyfin`,
+`seerr`, `sabnzbd`, `transmission`, `romarr`. Configure only what you run — anything you
 leave out is simply absent, not broken.
 
 A misspelled key, an unknown service, or an `api_key` on Transmission **fails at
@@ -82,7 +85,7 @@ is deliberate, and it only affects writes.
 a configuration you can express — each entry carries its own `permissions`
 block.
 
-Only Radarr, Sonarr and Bazarr take a list. The other five are one each:
+Only Radarr, Sonarr and Bazarr take a list. The other six are one each:
 Prowlarr feeds every *arr from one place, Seerr connects to your instances
 itself, and a second download client is a different kind of setup from a quality
 tier.

@@ -87,7 +87,17 @@ describe('assertVersionSupported', () => {
     });
 
     it('has a floor for every service', () => {
-        const services = ['radarr', 'sonarr', 'prowlarr', 'bazarr', 'jellyfin', 'seerr', 'sabnzbd', 'transmission'];
+        const services = [
+            'radarr',
+            'sonarr',
+            'prowlarr',
+            'bazarr',
+            'jellyfin',
+            'seerr',
+            'sabnzbd',
+            'transmission',
+            'romarr'
+        ];
         for (const s of services) expect(MINIMUM_VERSIONS[s as keyof typeof MINIMUM_VERSIONS]).toBeTruthy();
     });
 
@@ -119,6 +129,7 @@ describe('assertVersionSupported against captured evidence', () => {
         prowlarr: (read('test/fixtures/prowlarr/system-status.json') as { version: string }).version,
         bazarr: (read('test/fixtures/bazarr/system-status.json') as { data: { bazarr_version: string } }).data.bazarr_version,
         jellyfin: (read('test/fixtures/jellyfin/system-info.json') as { Version: string }).Version,
+        romarr: (read('test/fixtures/romarr/system-status.json') as { version: string }).version,
         seerr: (read('test/fixtures/seerr/status.json') as { version: string }).version,
         sabnzbd: (read('test/fixtures/sabnzbd/version.json') as { version: string }).version,
         transmission: (read('test/fixtures/transmission/session-get.json') as { arguments: { version: string } }).arguments.version

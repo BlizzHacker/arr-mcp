@@ -15,7 +15,7 @@ describe('buildAdapters', () => {
         expect(buildAdapters(config).map(a => a.id)).toEqual(['radarr']);
     });
 
-    it('builds all eight in a stable, alphabetical order', () => {
+    it('builds all nine in a stable, alphabetical order', () => {
         const config = ConfigSchema.parse({
             auth: AUTH,
             services: {
@@ -25,6 +25,7 @@ describe('buildAdapters', () => {
                 bazarr: keyed(6767),
                 sabnzbd: keyed(8080),
                 jellyfin: keyed(8096),
+                romarr: keyed(6868),
                 seerr: keyed(5055),
                 transmission: { url: 'http://h:9091', username: 'u', password: 'p' }
             }
@@ -36,6 +37,7 @@ describe('buildAdapters', () => {
             'jellyfin',
             'prowlarr',
             'radarr',
+            'romarr',
             'sabnzbd',
             'seerr',
             'sonarr',

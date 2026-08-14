@@ -22,6 +22,8 @@ export const MINIMUM_VERSIONS: Record<ServiceId, string> = {
     bazarr: '1.4.0',
     // /ScheduledTasks with LastExecutionResult, and Fields=ProviderIds.
     jellyfin: '10.8.0',
+    // First release with the *arr-shaped game, queue, status and Hub APIs.
+    romarr: '0.8.0',
     // Seerr forked from Overseerr in February 2026; 1.0 is its first release.
     seerr: '1.0.0',
     // output=json on the query-parameter API.

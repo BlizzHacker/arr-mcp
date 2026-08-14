@@ -303,6 +303,69 @@ export interface SearchCapable {
 export const hasSearch = (a: ServiceAdapter): a is ServiceAdapter & SearchCapable =>
     typeof (a as Partial<SearchCapable>).search === 'function';
 
+// --- ROM library and plugin capabilities ---
+
+/** One ROMarr library row. Kept separate from the film/series join: games do
+ * not have a Jellyfin presence half, so forcing them through `MergedItem`
+ * would turn "not a video" into a false broken-import warning. */
+export type GameSummary = {
+    service: string;
+    id: string;
+    title: string;
+    platform: string;
+    year?: number;
+    rating?: number;
+    genres?: string[];
+    source?: string;
+    origin?: string;
+    extension?: string;
+};
+
+export interface GameLibraryCapable {
+    listGames(opts: {
+        query?: string;
+        platform?: string;
+        genre?: string;
+        limit: number;
+        offset: number;
+    }): Promise<{ items: GameSummary[]; total: number }>;
+}
+
+export const hasGameLibrary = (a: ServiceAdapter): a is ServiceAdapter & GameLibraryCapable =>
+    typeof (a as Partial<GameLibraryCapable>).listGames === 'function';
+
+export type RomPlugin = {
+    service: string;
+    slug: string;
+    name: string;
+    author?: string;
+    version?: string;
+    repository?: string;
+    description?: string;
+    capabilities: string[];
+    platforms: string[];
+    network: string[];
+    keyRequired: boolean;
+    installed: boolean;
+    enabled: boolean;
+};
+
+export interface PluginDirectoryCapable {
+    listPlugins(): Promise<RomPlugin[]>;
+}
+
+export const hasPluginDirectory = (a: ServiceAdapter): a is ServiceAdapter & PluginDirectoryCapable =>
+    typeof (a as Partial<PluginDirectoryCapable>).listPlugins === 'function';
+
+export interface PluginManageCapable extends PluginDirectoryCapable {
+    setPluginEnabled(slug: string, enabled: boolean): Promise<unknown>;
+    setPluginInstalled(slug: string, installed: boolean): Promise<unknown>;
+}
+
+export const hasPluginManage = (a: ServiceAdapter): a is ServiceAdapter & PluginManageCapable =>
+    typeof (a as Partial<PluginManageCapable>).setPluginEnabled === 'function' &&
+    typeof (a as Partial<PluginManageCapable>).setPluginInstalled === 'function';
+
 // --- write capabilities ---
 
 /**

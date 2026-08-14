@@ -163,6 +163,48 @@ function anonymiseSeerrUser(row: Row, index: number): Row {
     };
 }
 
+function anonymiseRomarrStatus(body: unknown): unknown {
+    const status = body as Row;
+    const clients = Array.isArray(status.clients)
+        ? (status.clients as Row[]).map(row => ({ ...row, url: replaceIfString(row.url, anonymousUrl) }))
+        : status.clients;
+    const libraries = Array.isArray(status.libraries)
+        ? (status.libraries as Row[]).map(row => ({
+              ...row,
+              url: replaceIfString(row.url, anonymousUrl),
+              path: replaceIfString(row.path, '/media/games'),
+              path_hint: replaceIfString(row.path_hint, 'Library path status.')
+          }))
+        : status.libraries;
+    return {
+        ...status,
+        clients,
+        libraries,
+        prowlarr_url: replaceIfString(status.prowlarr_url, anonymousUrl),
+        qbit_url: replaceIfString(status.qbit_url, anonymousUrl),
+        romm_url: replaceIfString(status.romm_url, anonymousUrl),
+        stream_url: replaceIfString(status.stream_url, anonymousUrl),
+        library_path: replaceIfString(status.library_path, '/media/games'),
+        library_path_hint: replaceIfString(status.library_path_hint, 'Library path status.'),
+        ggrequestz:
+            typeof status.ggrequestz === 'object' && status.ggrequestz !== null
+                ? { ...(status.ggrequestz as Row), url: anonymousUrl }
+                : status.ggrequestz
+    };
+}
+
+function anonymiseRomarrIndexers(body: unknown): unknown {
+    const page = body as { items?: Row[]; proxied?: Row[] };
+    const clean = (rows: Row[] | undefined): Row[] | undefined =>
+        rows?.map((row, index) => ({
+            ...row,
+            name: replaceIfString(row.name, `Indexer ${index + 1}`),
+            url: replaceIfString(row.url, anonymousUrl),
+            api_key: replaceIfString(row.api_key, REDACTED)
+        }));
+    return { ...page, items: clean(page.items), proxied: clean(page.proxied) };
+}
+
 /**
  * What each adapter needs to see. Extend this when an adapter starts reading a
  * new endpoint — a fixture that does not exist cannot be tested against.
@@ -321,6 +363,24 @@ const ENDPOINTS: Record<ServiceId, Endpoint[]> = {
                 };
             }
         }
+    ],
+    romarr: [
+        { name: 'system-status', path: '/api/v1/system/status', anonymise: anonymiseRomarrStatus },
+        { name: 'game', path: '/api/v1/game?limit=5' },
+        {
+            name: 'queue',
+            path: '/api/v1/queue',
+            // A busy game stack may retain hundreds of in-flight rows. Five
+            // real rows preserve every field the adapter maps without making
+            // the fixture a quarter-megabyte history export.
+            anonymise: body => {
+                const page = body as { items?: unknown[] };
+                return { ...page, items: page.items?.slice(0, 5) };
+            }
+        },
+        { name: 'indexer', path: '/api/v1/indexer', anonymise: anonymiseRomarrIndexers },
+        { name: 'hub-plugins', path: '/api/v1/hub/plugins' },
+        { name: 'search', path: '/api/search?game=metroid' }
     ],
     seerr: [
         { name: 'status', path: '/api/v1/status' },

@@ -1,0 +1,126 @@
+{
+  "game": "metroid",
+  "platform": null,
+  "unknown_platform": null,
+  "found": 242,
+  "rejected": 117,
+  "private_found": 13,
+  "best": {
+    "title": "Super Metroid (JU) [!].smc",
+    "size": 3145728,
+    "seeders": 1,
+    "categories": [
+      1090,
+      100499
+    ],
+    "download_url": "magnet:?xt=urn:btih:633E19066F941216B22D456D57F59694E3A0C425&dn=Super+Metroid+(JU)+%5b!%5d.smc&tr=http%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.auctor.tv%3a6969%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=udp%3a%2f%2fopen.demonii.com%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=udp%3a%2f%2fuploads.gamecoast.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.skyts.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker-udp.gbitt.info%3a80%2fannounce&tr=udp%3a%2f%2fopen.tracker.ink%3a6969%2fannounce&tr=udp%3a%2f%2fmovies.zsw.ca%3a6969%2fannounce",
+    "protocol": "torrent",
+    "indexer": "The Pirate Bay",
+    "private": false,
+    "info_url": "https://thepiratebay.org/description.php?id=4164264"
+  },
+  "indexers": {
+    "The Pirate Bay": {
+      "found": 81,
+      "kept": 46,
+      "private": false
+    },
+    "kickasstorrents.ws": {
+      "found": 37,
+      "kept": 18,
+      "private": false
+    },
+    "Knaben": {
+      "found": 41,
+      "kept": 32,
+      "private": false
+    },
+    "RetroWithin": {
+      "found": 13,
+      "kept": 4,
+      "private": true
+    },
+    "LimeTorrents": {
+      "found": 20,
+      "kept": 5,
+      "private": false
+    },
+    "BlueRoms": {
+      "found": 14,
+      "kept": 14,
+      "private": false
+    },
+    "Catorrent": {
+      "found": 20,
+      "kept": 1,
+      "private": false
+    },
+    "GamesTorrents": {
+      "found": 3,
+      "kept": 1,
+      "private": false
+    },
+    "Byrutor": {
+      "found": 2,
+      "kept": 2,
+      "private": false
+    },
+    "Torrent9": {
+      "found": 3,
+      "kept": 2,
+      "private": false
+    },
+    "dmhy": {
+      "found": 1,
+      "kept": 0,
+      "private": false
+    },
+    "Nyaa.si": {
+      "found": 3,
+      "kept": 0,
+      "private": false
+    },
+    "TorrentDownload": {
+      "found": 4,
+      "kept": 0,
+      "private": false
+    }
+  },
+  "top": [
+    {
+      "title": "Super Metroid (JU) [!].smc",
+      "score": 92,
+      "seeders": 1,
+      "indexer": "The Pirate Bay",
+      "private": false
+    },
+    {
+      "title": "Metroid Prime Trilogy USA Wii-OneUp",
+      "score": 80,
+      "seeders": 52,
+      "indexer": "kickasstorrents.ws",
+      "private": false
+    },
+    {
+      "title": "Metroid_Other_M [Wii] [USA]",
+      "score": 52,
+      "seeders": 6,
+      "indexer": "The Pirate Bay",
+      "private": false
+    },
+    {
+      "title": "[Wii] Metroid Prime 3: Corruption (NTSC-U) Unscrubbed Dump",
+      "score": 46,
+      "seeders": 3,
+      "indexer": "The Pirate Bay",
+      "private": false
+    },
+    {
+      "title": "[Wii] Metroid Prime 3: Corruption (NTSC-U) Unscrubbed Dump",
+      "score": 46,
+      "seeders": 3,
+      "indexer": "Knaben",
+      "private": false
+    }
+  ]
+}

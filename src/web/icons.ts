@@ -31,6 +31,10 @@ export const ICONS: Record<ServiceId, string> = {
             '<path d="M6.5 11.5h4M13.5 11.5h4"/>'
     ),
     jellyfin: draw('<rect x="3" y="3" width="18" height="18" rx="3"/><path d="m10 8.5 6 3.5-6 3.5z"/>'),
+    romarr: draw(
+        '<rect x="3" y="6" width="18" height="12" rx="3"/>' +
+            '<path d="M8 12h4M10 10v4M16 10.5v.01M18 13.5v.01"/>'
+    ),
     seerr: draw(
         '<path d="M6.5 6.5h11l3 7v4.5a1.5 1.5 0 0 1-1.5 1.5h-14A1.5 1.5 0 0 1 3.5 18v-4.5z"/>' +
             '<path d="M3.5 13.5H8l1.5 2.5h5l1.5-2.5h4.5"/><path d="M12 8.5v3M10.5 10h3"/>'
